@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "postinstall": "husky install",
     "nx": "nx",
     "start": "nx serve",
     "build": "nx build",
@@ -27,6 +28,8 @@
   },
   "private": true,
   "dependencies": {
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
     "tslib": "^2.0.0"
   },
   "devDependencies": {
