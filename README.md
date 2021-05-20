@@ -2,6 +2,8 @@
 
 # Atomic
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/00dea83854f340679ca6f9e04818c0a8)](https://app.codacy.com/gh/Xenfo/atomic?utm_source=github.com&utm_medium=referral&utm_content=Xenfo/atomic&utm_campaign=Badge_Grade_Settings)
+
 This project was generated using [Nx](https://nx.dev).
 
 <p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
