@@ -47,7 +47,7 @@
     "@nrwl/cli": "12.3.3",
     "@nrwl/cypress": "12.3.3",
     "@nrwl/eslint-plugin-nx": "12.3.3",
-    "@nrwl/express": "^12.3.3",
+    "@nrwl/express": "^12.3.4",
     "@nrwl/jest": "12.3.3",
     "@nrwl/linter": "12.3.3",
     "@nrwl/next": "^12.3.3",
