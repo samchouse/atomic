@@ -31,6 +31,13 @@
     },
     "backend": {
       "tags": []
+    },
+    "frontenda": {
+      "tags": []
+    },
+    "frontenda-e2e": {
+      "tags": [],
+      "implicitDependencies": ["frontenda"]
     }
   }
 }
