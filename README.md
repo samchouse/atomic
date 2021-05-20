@@ -5,6 +5,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/00dea83854f340679ca6f9e04818c0a8)](https://app.codacy.com/gh/Xenfo/atomic?utm_source=github.com&utm_medium=referral&utm_content=Xenfo/atomic&utm_campaign=Badge_Grade_Settings)
 [![codecov](https://codecov.io/gh/Xenfo/atomic/branch/master/graph/badge.svg?token=TCd33PxwSY)](https://codecov.io/gh/Xenfo/atomic)
 [![Known Vulnerabilities](https://snyk.io/test/github/Xenfo/atomic/badge.svg)](https://snyk.io/test/github/Xenfo/atomic)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FXenfo%2Fatomic.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FXenfo%2Fatomic?ref=badge_shield)
 
 This project was generated using [Nx](https://nx.dev).
 
@@ -96,3 +97,6 @@ Nx Cloud pairs with Nx in order to enable you to build and test code more rapidl
 Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
 
 Visit [Nx Cloud](https://nx.app/) to learn more.
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FXenfo%2Fatomic.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FXenfo%2Fatomic?ref=badge_large)
