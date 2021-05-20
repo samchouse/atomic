@@ -23,9 +23,11 @@ jobs:
 
       - name: Install Dependencies
         run: yarn install --silent --frozen-lockfile
-      # - name: Run Tests
-      #   run: yarn test --coverage
-      # - name: Upload coverage to Codecov
-      #   uses: codecov/codecov-action@v1
-      #   with:
-      #     token: ${{ secrets.CODECOV_TOKEN }}
+
+      - name: Run Tests
+        run: yarn nx run-many --target=test --all --codeCoverage --ci
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
