@@ -3,6 +3,7 @@
 # Atomic
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/00dea83854f340679ca6f9e04818c0a8)](https://app.codacy.com/gh/Xenfo/atomic?utm_source=github.com&utm_medium=referral&utm_content=Xenfo/atomic&utm_campaign=Badge_Grade_Settings)
+[![codecov](https://codecov.io/gh/Xenfo/atomic/branch/master/graph/badge.svg?token=TCd33PxwSY)](https://codecov.io/gh/Xenfo/atomic)
 
 This project was generated using [Nx](https://nx.dev).
 
