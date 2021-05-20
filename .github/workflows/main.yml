@@ -1,5 +1,7 @@
 name: CI/CD
-on: [pull_request, push]
+on: 
+  push:
+  pull_request:
 
 env:
   NX_BRANCH: ${{ github.event.number }}
