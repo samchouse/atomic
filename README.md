@@ -18,7 +18,6 @@
 - [Further help](#further-help)
 - [☁ Nx Cloud](#%E2%98%81-nx-cloud)
   - [Computation Memoization in the Cloud](#computation-memoization-in-the-cloud)
-- [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
