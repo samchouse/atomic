@@ -1,6 +1,8 @@
 name: CI/CD
 on:
   pull_request:
+    branches:
+      - master
   push:
     branches:
       - master
@@ -10,7 +12,35 @@ env:
   NX_RUN_GROUP: ${{ github.run_id }}
 
 jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install Dependencies
+        run: yarn install --silent --frozen-lockfile
+
+      - name: Run Linter
+        run: yarn nx workspace-lint && yarn nx affected --target=lint
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+
   test:
+    name: Tests
     runs-on: ubuntu-latest
 
     strategy:
@@ -35,3 +65,17 @@ jobs:
         uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
+  
+  sonarcloud:
+    name: SonarCloud
+    runs-on: ubuntu-latest
+  
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
