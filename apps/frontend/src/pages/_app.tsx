@@ -5,6 +5,8 @@ import React from 'react';
 import { ReactComponent as NxLogo } from '../public/nx-logo-white.svg';
 import './styles.css';
 
+import '../styles/tailwind.css'
+
 function CustomApp({ Component, pageProps }: AppProps) {
     return (
         <>
