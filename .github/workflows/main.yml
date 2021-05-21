@@ -59,23 +59,9 @@ jobs:
         run: yarn install --silent --frozen-lockfile
 
       - name: Run Tests
-        run: yarn nx run-many --target=test --all --codeCoverage --ci
+        run: yarn nx affected --target=test --codeCoverage --ci
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-  
-  sonarcloud:
-    name: SonarCloud
-    runs-on: ubuntu-latest
-  
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
