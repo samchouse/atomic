@@ -67,6 +67,14 @@
           "options": {
             "lintFilePatterns": ["apps/frontend/**/*.{ts,tsx,js,jsx}"]
           }
+        },
+        "build-css": {
+          "builder": "@nrwl/workspace:run-commands",
+          "outputs": [],
+          "options": {
+            "command": "yarn postcss $PWD/src/styles/main.css -o $PWD/src/styles/tailwind.css",
+            "cwd": "apps/frontend"
+          }
         }
       }
     },
