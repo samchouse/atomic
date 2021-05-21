@@ -1,7 +1,6 @@
 # Atomic
 
 [![Known Vulnerabilities](https://snyk.io/test/github/Xenfo/atomic/badge.svg)](https://snyk.io/test/github/Xenfo/atomic)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FXenfo%2Fatomic.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FXenfo%2Fatomic?ref=badge_shield)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -113,6 +112,3 @@ Nx Cloud pairs with Nx in order to enable you to build and test code more rapidl
 Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
 
 Visit [Nx Cloud](https://nx.app/) to learn more.
-
-## License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FXenfo%2Fatomic.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FXenfo%2Fatomic?ref=badge_large)
