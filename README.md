@@ -3,6 +3,26 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/Xenfo/atomic/badge.svg)](https://snyk.io/test/github/Xenfo/atomic)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FXenfo%2Fatomic.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FXenfo%2Fatomic?ref=badge_shield)
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Adding capabilities to your workspace](#adding-capabilities-to-your-workspace)
+- [Generate an application](#generate-an-application)
+- [Generate a library](#generate-a-library)
+- [Development server](#development-server)
+- [Code scaffolding](#code-scaffolding)
+- [Build](#build)
+- [Running unit tests](#running-unit-tests)
+- [Running end-to-end tests](#running-end-to-end-tests)
+- [Understand your workspace](#understand-your-workspace)
+- [Further help](#further-help)
+- [☁ Nx Cloud](#%E2%98%81-nx-cloud)
+  - [Computation Memoization in the Cloud](#computation-memoization-in-the-cloud)
+- [License](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 This project was generated using [Nx](https://nx.dev).
 
 <p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
