@@ -77,19 +77,3 @@ jobs:
         uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-
-  fossa:
-    name: Fossa
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [14.x]
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Run FOSSA Scan
-        uses: fossa-contrib/fossa-action@v1
-        with:
-          fossa-api-key: 9cfe357f144c0bee8105952fbd37f608
