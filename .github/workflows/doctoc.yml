@@ -29,8 +29,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Install Dependencies
-      run: yarn install --silent --frozen-lockfile
+    - name: Install DocToc
+      run: npm i -g doctoc
 
     - name: Run DocToc
       run: yarn doctoc
