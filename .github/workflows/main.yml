@@ -1,5 +1,6 @@
 name: CI/CD
-on: [pull_request, push]
+on: 
+  pull_request:
 
 env:
   NX_BRANCH: ${{ github.event.number }}
@@ -26,9 +27,6 @@ jobs:
 
       - name: Run Tests
         run: yarn nx run-many --target=test --all --codeCoverage --ci
-
-      - name: test
-        run: ls
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
