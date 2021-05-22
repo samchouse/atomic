@@ -27,7 +27,7 @@ This project was generated using [Nx](https://nx.dev).
 
 🔎 **Powerful, Extensible Dev Tools**
 
-## Adding capabilities to your workspace
+## Adding capabilities to the workspace
 
 Nx supports many plugins which add capabilities for developing different types of applications and different tools.
 
