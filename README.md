@@ -6,7 +6,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
-- [Adding capabilities to your workspace](#adding-capabilities-to-your-workspace)
+- [Adding capabilities to the workspace](#adding-capabilities-to-the-workspace)
 - [Generate an application](#generate-an-application)
 - [Generate a library](#generate-a-library)
 - [Development server](#development-server)
