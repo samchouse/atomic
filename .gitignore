@@ -34,6 +34,7 @@ yarn-error.log
 testem.log
 /typings
 /**/tailwind.css
+/deployment/prod/.env
 
 # System Files
 .DS_Store

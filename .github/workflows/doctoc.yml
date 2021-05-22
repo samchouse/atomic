@@ -5,12 +5,12 @@ on:
     branches:
       - master
     paths:
-      - 'README.md'
+      - "README.md"
   push:
     branches:
       - master
     paths:
-      - 'README.md'
+      - "README.md"
 
 jobs:
   doctoc:
@@ -22,23 +22,23 @@ jobs:
         node-version: [14.x]
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Set up Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
 
-    - name: Install DocToc
-      run: npm i -g doctoc
+      - name: Install DocToc
+        run: yarn install --silent --frozen-lockfile
 
-    - name: Run DocToc
-      run: yarn doctoc
-   
-    - name: Commit Changes
-      uses: EndBug/add-and-commit@v7
-      with:
-        author_name: Samuel Corsi-House
-        author_email: chouse.samuel@gmail.com
-        message: 'Update README.md TOC'
-        add: 'README.md'
+      - name: Run DocToc
+        run: yarn doctoc
+
+      - name: Commit Changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: Samuel Corsi-House
+          author_email: chouse.samuel@gmail.com
+          message: "Update README.md TOC"
+          add: "README.md"

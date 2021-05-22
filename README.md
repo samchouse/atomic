@@ -6,7 +6,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
-- [Adding capabilities to your workspace](#adding-capabilities-to-your-workspace)
+- [Adding capabilities to the workspace](#adding-capabilities-to-the-workspace)
 - [Generate an application](#generate-an-application)
 - [Generate a library](#generate-a-library)
 - [Development server](#development-server)
@@ -27,7 +27,7 @@ This project was generated using [Nx](https://nx.dev).
 
 🔎 **Powerful, Extensible Dev Tools**
 
-## Adding capabilities to your workspace
+## Adding capabilities to the workspace
 
 Nx supports many plugins which add capabilities for developing different types of applications and different tools.
 
