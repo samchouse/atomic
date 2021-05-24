@@ -83,6 +83,14 @@
             "command": "NODE_ENV=development yarn postcss $PWD/src/styles/main.css -o $PWD/src/styles/tailwind.css -w",
             "cwd": "apps/frontend"
           }
+        },
+        "vercel": {
+          "executor": "@nrwl/workspace:run-commands",
+          "outputs": [],
+          "options": {
+            "command": "yarn nx run frontend:build-css && yarn nx build frontend --prod && mv dist/apps/frontend/.next .next && mv dist/apps/frontend/package.json package.json && mv dist/apps/frontend/next.config.js next.config.js",
+            "cwd": "apps/frontend"
+          }
         }
       }
     },
