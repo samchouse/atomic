@@ -88,7 +88,7 @@
           "executor": "@nrwl/workspace:run-commands",
           "outputs": [],
           "options": {
-            "command": "yarn nx run frontend:build-css && yarn nx build frontend --prod && mv dist/apps/frontend/.next .next && mv dist/apps/frontend/package.json package.json && mv dist/apps/frontend/next.config.js next.config.js",
+            "command": "yarn nx run frontend:build-css && yarn nx build frontend --prod && ls -la && ls -la dist/apps/frontend && rm -rf package.json && mv -v dist/apps/frontend/.next .next && mv -v dist/apps/frontend/package.json package.json && mv -v dist/apps/frontend/next.config.js next.config.js",
             "cwd": "apps/frontend"
           }
         }
