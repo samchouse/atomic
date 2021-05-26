@@ -60,7 +60,7 @@
     "@nrwl/workspace": "12.3.4",
     "@testing-library/react": "11.2.7",
     "@trivago/prettier-plugin-sort-imports": "^2.0.2",
-    "@types/express": "4.17.11",
+    "@types/express": "4.17.12",
     "@types/jest": "26.0.23",
     "@types/node": "15.6.1",
     "@types/react": "17.0.7",
