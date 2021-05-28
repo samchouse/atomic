@@ -1732,6 +1732,17 @@
     yargs "15.4.1"
     yargs-parser "20.0.0"
 
+"@nrwl/cli@12.3.5":
+  version "12.3.5"
+  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-12.3.5.tgz#15a4011990cc8cfae660addc7abcf6a3f7402107"
+  integrity sha512-iAH90jevQW3G9KPtEg9b14g1zMxrsxgRYQfkZDXijx21yJGDieJh1mCIewpy5jcEBS+ODQKvant0XdyhS/kUBw==
+  dependencies:
+    "@nrwl/tao" "12.3.5"
+    chalk "4.1.0"
+    v8-compile-cache "2.3.0"
+    yargs "15.4.1"
+    yargs-parser "20.0.0"
+
 "@nrwl/cypress@12.3.4":
   version "12.3.4"
   resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-12.3.4.tgz#0f1cabb92cba1d102435afc4be82ce731e7b5843"
@@ -1761,13 +1772,25 @@
     strip-json-comments "^3.1.1"
     tslib "^2.0.0"
 
-"@nrwl/eslint-plugin-nx@12.3.4":
-  version "12.3.4"
-  resolved "https://registry.yarnpkg.com/@nrwl/eslint-plugin-nx/-/eslint-plugin-nx-12.3.4.tgz#cc7d360e0879f3f940bcf82810b5c4aea9622db9"
-  integrity sha512-vja+D/xbb6EhW8xwyUWj3wWXcPWziF9FWk/ZVZElbjMEQjFwGkIrSMks5OSXMVZtuin8AFTEi8s+dNGCBp8bYg==
+"@nrwl/devkit@12.3.5":
+  version "12.3.5"
+  resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-12.3.5.tgz#5b1a9382f9a51f12ce133a95eb4d6731fc2cda03"
+  integrity sha512-bZi2WNHAAy/nSHAlA7r8zGpLuWPeurTbwBeNH9gm3It19fV5+hWoL1/pPlDBr2xEWjJQJNmWikxonxhw2ZIpGw==
   dependencies:
-    "@nrwl/devkit" "12.3.4"
-    "@nrwl/workspace" "12.3.4"
+    "@nrwl/tao" "12.3.5"
+    ejs "^3.1.5"
+    ignore "^5.0.4"
+    semver "7.3.4"
+    strip-json-comments "^3.1.1"
+    tslib "^2.0.0"
+
+"@nrwl/eslint-plugin-nx@12.3.5":
+  version "12.3.5"
+  resolved "https://registry.yarnpkg.com/@nrwl/eslint-plugin-nx/-/eslint-plugin-nx-12.3.5.tgz#c57b9895508cbe5ec7c32eebcd590d6dd119da6f"
+  integrity sha512-4RNUyFKD4DxQblshjaLnJXWS21U9Uxp514CARtgHN62TQxXpeHx6xSSiSoTv9F/KtRkCa9yf3D0EaWlXDTElSQ==
+  dependencies:
+    "@nrwl/devkit" "12.3.5"
+    "@nrwl/workspace" "12.3.5"
     "@typescript-eslint/experimental-utils" "^4.3.0"
     confusing-browser-globals "^1.0.9"
 
@@ -1792,12 +1815,34 @@
     strip-json-comments "^3.1.1"
     tslib "^2.0.0"
 
+"@nrwl/jest@12.3.5":
+  version "12.3.5"
+  resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-12.3.5.tgz#6e74902cc290b8a7c6cdcf937d4634c4befea59e"
+  integrity sha512-pFaDcr7tGbYQ7NrWlym0cKAXFtphqLq8KlEoWM0aQcBQxv9VZtj4N8dwYPXPMAiAGYKYqgt9e74rgvN+bGeS1g==
+  dependencies:
+    "@nrwl/devkit" "12.3.5"
+    jest-resolve "^26.6.2"
+    rxjs "^6.5.4"
+    strip-json-comments "^3.1.1"
+    tslib "^2.0.0"
+
 "@nrwl/linter@12.3.4":
   version "12.3.4"
   resolved "https://registry.yarnpkg.com/@nrwl/linter/-/linter-12.3.4.tgz#0281b367af52404fe3122651f40562b5489ee619"
   integrity sha512-cxWLA+B1hjAjiyQadqoYIf9lUh1EKTs/kgIwXExW2qaoFv1NtTQiB+JsD2VTLUj4tKE7rWdBR13PAC9CS1Ln4g==
   dependencies:
     "@nrwl/devkit" "12.3.4"
+    glob "7.1.4"
+    minimatch "3.0.4"
+    tmp "~0.2.1"
+    tslib "^2.0.0"
+
+"@nrwl/linter@12.3.5":
+  version "12.3.5"
+  resolved "https://registry.yarnpkg.com/@nrwl/linter/-/linter-12.3.5.tgz#3224926a936b60e31c74b63efd7c97fce511610a"
+  integrity sha512-6YhjlDZFb2dk0kphdLUELj99bAhG/So+CO1E8/eJsTvK4Mf7LySaTamabR9meSJW7yu2WKxiIIm4Z69IBI1bNQ==
+  dependencies:
+    "@nrwl/devkit" "12.3.5"
     glob "7.1.4"
     minimatch "3.0.4"
     tmp "~0.2.1"
@@ -1915,6 +1960,22 @@
     tslib "^2.0.0"
     yargs-parser "20.0.0"
 
+"@nrwl/tao@12.3.5":
+  version "12.3.5"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-12.3.5.tgz#7cbc65a561e5f9255403dc55bddf0f9a6743397c"
+  integrity sha512-K/Q0GsrLzqXubmLgm8tFSjvrG61lQ00DrtNZ5dHywOAXREeV11A0bR7lXVDTohABk3D9Wgly5IKZPZ3iUwscsg==
+  dependencies:
+    chalk "4.1.0"
+    enquirer "~2.3.6"
+    fs-extra "^9.1.0"
+    rxjs "^6.5.4"
+    rxjs-for-await "0.0.2"
+    semver "7.3.4"
+    strip-json-comments "^3.1.1"
+    tmp "~0.2.1"
+    tslib "^2.0.0"
+    yargs-parser "20.0.0"
+
 "@nrwl/web@12.3.4":
   version "12.3.4"
   resolved "https://registry.yarnpkg.com/@nrwl/web/-/web-12.3.4.tgz#f9f964a826fcf8470dfcad6322790e8f96d5a62b"
@@ -2009,6 +2070,35 @@
     "@nrwl/devkit" "12.3.4"
     "@nrwl/jest" "12.3.4"
     "@nrwl/linter" "12.3.4"
+    chalk "4.1.0"
+    cosmiconfig "^4.0.0"
+    dotenv "8.2.0"
+    enquirer "~2.3.6"
+    flat "^5.0.2"
+    fs-extra "^9.1.0"
+    glob "7.1.4"
+    ignore "^5.0.4"
+    minimatch "3.0.4"
+    npm-run-all "^4.1.5"
+    open "^7.4.2"
+    resolve "1.17.0"
+    rxjs "^6.5.4"
+    semver "7.3.4"
+    strip-json-comments "^3.1.1"
+    tmp "~0.2.1"
+    tslib "^2.0.0"
+    yargs "15.4.1"
+    yargs-parser "20.0.0"
+
+"@nrwl/workspace@12.3.5":
+  version "12.3.5"
+  resolved "https://registry.yarnpkg.com/@nrwl/workspace/-/workspace-12.3.5.tgz#1e3c0ba31bf45ba18a958a7bf99b938631eae9eb"
+  integrity sha512-mawmYJBxjjiqGKQPu7bqtAhuWFj1vzK+VVUuGlItDM+mJuDFLrOZqVAQL/SJOVPS0qRpYTBiWrdF4ZsLTEa8LQ==
+  dependencies:
+    "@nrwl/cli" "12.3.5"
+    "@nrwl/devkit" "12.3.5"
+    "@nrwl/jest" "12.3.5"
+    "@nrwl/linter" "12.3.5"
     chalk "4.1.0"
     cosmiconfig "^4.0.0"
     dotenv "8.2.0"
@@ -2624,7 +2714,7 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@typescript-eslint/experimental-utils@4.25.0":
+"@typescript-eslint/experimental-utils@4.25.0", "@typescript-eslint/experimental-utils@^4.3.0":
   version "4.25.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-4.25.0.tgz#b2febcfa715d2c1806fd5f0335193a6cd270df54"
   integrity sha512-f0doRE76vq7NEEU0tw+ajv6CrmPelw5wLoaghEHkA2dNLFb3T/zJQqGPQ0OYt5XlZaS13MtnN+GTPCuUVg338w==
@@ -2633,18 +2723,6 @@
     "@typescript-eslint/scope-manager" "4.25.0"
     "@typescript-eslint/types" "4.25.0"
     "@typescript-eslint/typescript-estree" "4.25.0"
-    eslint-scope "^5.0.0"
-    eslint-utils "^2.0.0"
-
-"@typescript-eslint/experimental-utils@^4.3.0":
-  version "4.23.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-4.23.0.tgz#f2059434cd6e5672bfeab2fb03b7c0a20622266f"
-  integrity sha512-WAFNiTDnQfrF3Z2fQ05nmCgPsO5o790vOhmWKXbbYQTO9erE1/YsFot5/LnOUizLzU2eeuz6+U/81KV5/hFTGA==
-  dependencies:
-    "@types/json-schema" "^7.0.3"
-    "@typescript-eslint/scope-manager" "4.23.0"
-    "@typescript-eslint/types" "4.23.0"
-    "@typescript-eslint/typescript-estree" "4.23.0"
     eslint-scope "^5.0.0"
     eslint-utils "^2.0.0"
 
@@ -2658,14 +2736,6 @@
     "@typescript-eslint/typescript-estree" "4.25.0"
     debug "^4.1.1"
 
-"@typescript-eslint/scope-manager@4.23.0":
-  version "4.23.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-4.23.0.tgz#8792ef7eacac122e2ec8fa2d30a59b8d9a1f1ce4"
-  integrity sha512-ZZ21PCFxPhI3n0wuqEJK9omkw51wi2bmeKJvlRZPH5YFkcawKOuRMQMnI8mH6Vo0/DoHSeZJnHiIx84LmVQY+w==
-  dependencies:
-    "@typescript-eslint/types" "4.23.0"
-    "@typescript-eslint/visitor-keys" "4.23.0"
-
 "@typescript-eslint/scope-manager@4.25.0":
   version "4.25.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-4.25.0.tgz#9d86a5bcc46ef40acd03d85ad4e908e5aab8d4ca"
@@ -2674,28 +2744,10 @@
     "@typescript-eslint/types" "4.25.0"
     "@typescript-eslint/visitor-keys" "4.25.0"
 
-"@typescript-eslint/types@4.23.0":
-  version "4.23.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-4.23.0.tgz#da1654c8a5332f4d1645b2d9a1c64193cae3aa3b"
-  integrity sha512-oqkNWyG2SLS7uTWLZf6Sr7Dm02gA5yxiz1RP87tvsmDsguVATdpVguHr4HoGOcFOpCvx9vtCSCyQUGfzq28YCw==
-
 "@typescript-eslint/types@4.25.0":
   version "4.25.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-4.25.0.tgz#0e444a5c5e3c22d7ffa5e16e0e60510b3de5af87"
   integrity sha512-+CNINNvl00OkW6wEsi32wU5MhHti2J25TJsJJqgQmJu3B3dYDBcmOxcE5w9cgoM13TrdE/5ND2HoEnBohasxRQ==
-
-"@typescript-eslint/typescript-estree@4.23.0":
-  version "4.23.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-4.23.0.tgz#0753b292097523852428a6f5a1aa8ccc1aae6cd9"
-  integrity sha512-5Sty6zPEVZF5fbvrZczfmLCOcby3sfrSPu30qKoY1U3mca5/jvU5cwsPb/CO6Q3ByRjixTMIVsDkqwIxCf/dMw==
-  dependencies:
-    "@typescript-eslint/types" "4.23.0"
-    "@typescript-eslint/visitor-keys" "4.23.0"
-    debug "^4.1.1"
-    globby "^11.0.1"
-    is-glob "^4.0.1"
-    semver "^7.3.2"
-    tsutils "^3.17.1"
 
 "@typescript-eslint/typescript-estree@4.25.0":
   version "4.25.0"
@@ -2709,14 +2761,6 @@
     is-glob "^4.0.1"
     semver "^7.3.2"
     tsutils "^3.17.1"
-
-"@typescript-eslint/visitor-keys@4.23.0":
-  version "4.23.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-4.23.0.tgz#7215cc977bd3b4ef22467b9023594e32f9e4e455"
-  integrity sha512-5PNe5cmX9pSifit0H+nPoQBXdbNzi5tOEec+3riK+ku4e3er37pKxMKDH5Ct5Y4fhWxcD4spnlYjxi9vXbSpwg==
-  dependencies:
-    "@typescript-eslint/types" "4.23.0"
-    eslint-visitor-keys "^2.0.0"
 
 "@typescript-eslint/visitor-keys@4.25.0":
   version "4.25.0"
@@ -9230,7 +9274,6 @@ minipass-fetch@^1.3.0, minipass-fetch@^1.3.2:
   resolved "https://registry.yarnpkg.com/minipass-fetch/-/minipass-fetch-1.3.3.tgz#34c7cea038c817a8658461bf35174551dce17a0a"
   integrity sha512-akCrLDWfbdAWkMLBxJEeWTdNsjML+dt5YgOI4gJ53vuO0vrmYQkUPxa6j6V65s9CcePIr2SSWqjT2EcrNseryQ==
   dependencies:
-    encoding "^0.1.12"
     minipass "^3.1.0"
     minipass-sized "^1.0.3"
     minizlib "^2.0.0"
