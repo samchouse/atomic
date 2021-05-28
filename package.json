@@ -49,7 +49,7 @@
     "@nrwl/cypress": "12.3.4",
     "@nrwl/eslint-plugin-nx": "12.3.4",
     "@nrwl/express": "^12.3.4",
-    "@nrwl/jest": "12.3.4",
+    "@nrwl/jest": "12.3.5",
     "@nrwl/linter": "12.3.4",
     "@nrwl/next": "^12.3.4",
     "@nrwl/node": "12.3.4",
