@@ -29,7 +29,7 @@
   },
   "private": true,
   "dependencies": {
-    "core-js": "^3.13.0",
+    "core-js": "^3.13.1",
     "document-register-element": "1.14.10",
     "express": "4.17.1",
     "husky": "^6.0.0",
