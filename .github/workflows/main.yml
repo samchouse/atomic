@@ -38,7 +38,7 @@ jobs:
         run: yarn install --silent --frozen-lockfile
 
       - name: Run Linter
-        run: yarn nx workspace-lint && yarn nx affected --target=lint --base=origin/master
+        run: yarn nx workspace-lint --fix && yarn nx affected --target=lint --base=origin/master --fix
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
