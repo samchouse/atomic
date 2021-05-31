@@ -1,9 +1,19 @@
 module.exports = {
   mode: 'jit',
-  purge: ['./src/**/*.{ts,tsx}'],
+  purge: ['./apps/frontend/src/**/*.{ts,tsx}'],
   darkMode: 'class',
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        gray: {
+          800: '#151a21',
+          900: '#0b0e11'
+        }
+      }
+    },
+    fontFamily: {
+      body: ['"Be Vietnam"', 'sans-serif']
+    }
   },
   variants: {
     extend: {}

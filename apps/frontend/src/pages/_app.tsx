@@ -1,29 +1,28 @@
+import { DefaultSeo } from 'next-seo';
+import { ThemeProvider } from 'next-themes';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import React from 'react';
 
-import { ReactComponent as NxLogo } from '../../public/nx-logo-white.svg';
-import './styles.css';
+import SEO from '../../next-seo.config';
+import '../styles/tailwind.css';
 
-import '../styles/tailwind.css'
+const App: React.FC<AppProps> = ({ Component, pageProps }: AppProps) => {
+  return (
+    <>
+      <Head>
+        <title>Atomic - A chat app for you</title>
+      </Head>
+      <ThemeProvider defaultTheme="dark" attribute="class" enableSystem={false}>
+        <div className="app">
+          <main>
+            <DefaultSeo {...SEO} />
+            <Component {...pageProps} />
+          </main>
+        </div>
+      </ThemeProvider>
+    </>
+  );
+};
 
-function CustomApp({ Component, pageProps }: AppProps) {
-    return (
-        <>
-            <Head>
-                <title>Welcome to frontend!</title>
-            </Head>
-            <div className="app">
-                <header className="flex">
-                    <NxLogo width="75" height="50" />
-                    <h1>Welcome to frontend!</h1>
-                </header>
-                <main>
-                    <Component {...pageProps} />
-                </main>
-            </div>
-        </>
-    );
-}
-
-export default CustomApp;
+export default App;
