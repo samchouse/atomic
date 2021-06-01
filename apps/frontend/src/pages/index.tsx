@@ -19,7 +19,7 @@ const Index: React.FC = () => {
         .
       </h3>
       <p className="text-gray-500 dark:text-gray-400 italic text-base md:pt-1">
-        If you want Atomic out quickly how about you come and help me? :D
+        If you want it out quickly how about you come and help me? :D
       </p>
     </div>
   );
