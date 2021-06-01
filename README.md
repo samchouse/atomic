@@ -1,5 +1,6 @@
 # Atomic
 
+[![codecov](https://codecov.io/gh/Xenfo/atomic/branch/master/graph/badge.svg?token=TCd33PxwSY)](https://codecov.io/gh/Xenfo/atomic)
 [![Known Vulnerabilities](https://snyk.io/test/github/Xenfo/atomic/badge.svg)](https://snyk.io/test/github/Xenfo/atomic)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->

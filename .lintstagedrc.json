@@ -1,4 +1,5 @@
 {
   "*.ts": "eslint --fix",
-  "*.tsx": "eslint --fix"
+  "*.tsx": "eslint --fix",
+  "README.md": "doctoc"
 }
