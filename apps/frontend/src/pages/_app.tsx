@@ -11,7 +11,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
-        <title>Atomic - A chat app for you</title>
+        <title>Atomics - A chat app for you</title>
       </Head>
       <ThemeProvider defaultTheme="dark" attribute="class" enableSystem={false}>
         <div className="app">

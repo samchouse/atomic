@@ -1,0 +1,39 @@
+coverage:
+  status:
+    project:
+      default:
+        target: auto
+      frontend:
+        target: auto
+        flags:
+          - frontend
+      backend:
+        target: auto
+        flags:
+          - backend
+      gateway:
+        target: auto
+        flags:
+          - gateway
+
+comment:
+  layout: "reach, diff, flags, files"
+  behavior: default
+  require_changes: false
+  require_base: yes
+  require_head: yes
+  branches: [master]
+
+flags:
+  frontend:
+    paths:
+      - apps/frontend/
+    carryforward: true
+  backend:
+    paths:
+      - apps/backend/
+    carryforward: true
+  gateway:
+    paths:
+      - apps/gateway/
+    carryforward: true
