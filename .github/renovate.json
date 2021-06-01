@@ -1,0 +1,9 @@
+{
+  "extends": ["config:base"],
+  "prhourlylimit": "0",
+  "timezone": "America/Toronto",
+  "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "assignees": ["@Xenfo"]
+  }
+}
