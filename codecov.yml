@@ -27,13 +27,13 @@ comment:
 flags:
   frontend:
     paths:
-      - apps/frontend/**/*.{ts,tsx}
+      - apps/frontend/
     carryforward: true
   backend:
     paths:
-      - apps/backend/**/*.{ts,tsx}
+      - apps/backend/
     carryforward: true
   gateway:
     paths:
-      - apps/gateway/**/*.{ts,tsx}
+      - apps/gateway/
     carryforward: true
