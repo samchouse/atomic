@@ -1,10 +1,4 @@
 {
-  "extends": ["config:base"],
-  "prHourlyLimit": "1000",
-  "prConcurrentLimit": "1000",
-  "timezone": "America/Toronto",
-  "vulnerabilityAlerts": {
-    "labels": ["security"],
-    "assignees": ["@Xenfo"]
-  }
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>Xenfo/renovate"]
 }
