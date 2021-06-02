@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./.github/logo.png" width="256" />
+  <img src=".github/images/logo.png" width="256" />
 </p>
 
 # Atomic

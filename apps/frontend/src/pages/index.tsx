@@ -3,6 +3,14 @@ import React from 'react';
 const Index: React.FC = () => {
   return (
     <div className="flex flex-col h-screen justify-center text-center ml-4 mr-4 md:ml-0 md:mr-0">
+      <div className="flex justify-center">
+        <img
+          src="/logoTransperant.png"
+          alt="logo"
+          width="180"
+          draggable="false"
+        />
+      </div>
       <h2 className="text-blue-600 dark:text-blue-500 text-4xl md:text-6xl font-bold">
         Atomic
       </h2>
