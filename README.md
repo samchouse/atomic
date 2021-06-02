@@ -1,6 +1,6 @@
-<div style="text-align: center;">
+<p align="center">
   <img src="./.github/logo.png" width="256" />
-</div>
+</p>
 
 # Atomic
 
