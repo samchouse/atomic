@@ -12,11 +12,20 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Structure](#structure)
 - [What is Atomic](#what-is-atomic)
 - [Contribution](#contribution)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Structure
+
+| Codebase | Description |
+| -------  | ------- |
+| [Frontend](/apps/frontend) | Website for the project |
+| [Backend](/apps/backend) | API for the project |
+| [Gateway](/apps/gateway) | Websockets for the app |
 
 ## What is Atomic
 
@@ -24,10 +33,10 @@ Atomic is a chat app that I am working on. It supposed to be a lot like Discord 
 
 ## Contribution
 
-Atomic is open to contributions, but I recommend opening an issue 
+Atomic is open to contributions, but I recommend opening an issue on GitHub with your idea before implementing it so that you can receive feedback.
 
-Please read CONTRIBUTING.md for details on this project.
+Please read [CONTRIBUTING.md](.github/CONTRIBUTING.md) for details on how to contribute to this project.
 
 ## License
 
-Atomic is [MIT licesed](/LICENSE).
+Atomic is [MIT licensed](/LICENSE).
