@@ -2,7 +2,6 @@ import { DefaultSeo } from 'next-seo';
 import { ThemeProvider } from 'next-themes';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import React from 'react';
 
 import SEO from '../../next-seo.config';
 import '../styles/tailwind.css';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Index: React.FC = () => {
   return (
     <div className="flex flex-col h-screen justify-center text-center ml-4 mr-4 md:ml-0 md:mr-0">
