@@ -1,3 +1,7 @@
+<div style="text-align: center;">
+  <img src="./.github/logo.png" width="256" />
+</div>
+
 # Atomic
 
 ![GitHub](https://img.shields.io/github/license/Xenfo/atomic)
@@ -7,7 +11,6 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-## Table of Contents
 
 - [Adding capabilities to the workspace](#adding-capabilities-to-the-workspace)
 - [Generate an application](#generate-an-application)
@@ -25,8 +28,6 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 This project was generated using [Nx](https://nx.dev).
-
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
 
 🔎 **Powerful, Extensible Dev Tools**
 
@@ -100,8 +101,6 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
-
-
 
 ## ☁ Nx Cloud
 
