@@ -1,9 +1,9 @@
 ## Contributing
 > Please read the public [roadmap][roadmap] before contributing
 
-[roadmap]: /discussions/27
-[fork]: /fork
-[pr]: /compare
+[roadmap]: https://github.com/Xenfo/atomic/discussions/27
+[fork]: https://github.com/Xenfo/atomic/fork
+[pr]: https://github.com/Xenfo/atomic/compare
 [code-of-conduct]: CODE_OF_CONDUCT.md
 
 Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
