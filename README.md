@@ -30,4 +30,4 @@ Please read CONTRIBUTING.md for details on this project.
 
 ## License
 
-Atomic is [MIT licesed](/LICENCE).
+Atomic is [MIT licesed](/LICENSE).
