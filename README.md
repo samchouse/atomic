@@ -1,5 +1,7 @@
 # Atomic
 
+![GitHub](https://img.shields.io/github/license/Xenfo/atomic)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![codecov](https://codecov.io/gh/Xenfo/atomic/branch/master/graph/badge.svg?token=TCd33PxwSY)](https://codecov.io/gh/Xenfo/atomic)
 [![Known Vulnerabilities](https://snyk.io/test/github/Xenfo/atomic/badge.svg)](https://snyk.io/test/github/Xenfo/atomic)
 
