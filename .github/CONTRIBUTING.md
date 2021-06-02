@@ -1,6 +1,7 @@
 ## Contributing
-> Please read the public [roadmap](https://github.com/Xenfo/atomic/discussions/27) before contributing
+> Please read the public [roadmap][roadmap] before contributing
 
+[roadmap]: /discussions/27
 [fork]: /fork
 [pr]: /compare
 [code-of-conduct]: CODE_OF_CONDUCT.md
