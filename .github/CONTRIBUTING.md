@@ -1,4 +1,5 @@
 ## Contributing
+
 > Please read the public [roadmap][roadmap] before contributing
 
 [roadmap]: https://github.com/Xenfo/atomic/discussions/27
