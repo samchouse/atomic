@@ -15,7 +15,7 @@ const Index: React.FC = () => {
       <h3 className="text-white dark:text-white pt-1 md:pt-5 text-lg">
         Coming soon. You can check my progress on{' '}
         <a
-          className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
+          className="underline hover:text-blue-600 dark:hover:text-blue-500"
           href="https://github.com/Xenfo/atomic"
           target="_blank"
           rel="noopener noreferrer"
