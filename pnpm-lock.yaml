@@ -13,7 +13,7 @@ specifiers:
   '@nrwl/linter': 12.3.6
   '@nrwl/next': ^12.3.6
   '@nrwl/node': 12.3.6
-  '@nrwl/nx-cloud': 12.1.8
+  '@nrwl/nx-cloud': 12.1.10
   '@nrwl/react': 12.3.6
   '@nrwl/tao': 12.3.6
   '@nrwl/web': 12.3.6
@@ -91,7 +91,7 @@ devDependencies:
   '@nrwl/linter': 12.3.6
   '@nrwl/next': 12.3.6_3f3d8ed6366b0d56a261bfec25dfe5bc
   '@nrwl/node': 12.3.6_prettier@2.3.1+typescript@4.3.2
-  '@nrwl/nx-cloud': 12.1.8
+  '@nrwl/nx-cloud': 12.1.10
   '@nrwl/react': 12.3.6_08b941da1d9824a8855bc8465df8db43
   '@nrwl/tao': 12.3.6
   '@nrwl/web': 12.3.6_a0286b669a450de661e50cc7540f06de
@@ -2968,8 +2968,8 @@ packages:
       - typescript
     dev: true
 
-  /@nrwl/nx-cloud/12.1.8:
-    resolution: {integrity: sha512-zy+3i/SbYoXRTconoUkb9PMjYtJtl1eH7xCImfQ3rIkZ9bA5NQ07/TzQoOt9vvVSvb+vPTgFOSa4AEjUkG9bzQ==}
+  /@nrwl/nx-cloud/12.1.10:
+    resolution: {integrity: sha512-GZ0kWm5lDRsQepU54saONjbHokto2v6RwWxwbgIOCy7p9HLWUmt1dpBAHehP87oeqvLLx1vcWt2gfjAUuYCsew==}
     hasBin: true
     dependencies:
       axios: 0.21.1
