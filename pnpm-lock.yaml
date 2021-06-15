@@ -37,6 +37,7 @@ specifiers:
   document-register-element: 1.14.10
   dotenv: 10.0.0
   eslint: ^7.28.0
+  eslint-config-next: ^11.0.0
   eslint-config-prettier: ^8.3.0
   eslint-plugin-cypress: ^2.10.3
   eslint-plugin-import: 2.23.4
@@ -113,6 +114,7 @@ devDependencies:
   doctoc: 2.0.1
   dotenv: 10.0.0
   eslint: 7.28.0
+  eslint-config-next: 11.0.0_aa0fcbfe2388e02d8aa3d858f112d2d9
   eslint-config-prettier: 8.3.0_eslint@7.28.0
   eslint-plugin-cypress: 2.11.3_eslint@7.28.0
   eslint-plugin-import: 2.23.4_eslint@7.28.0
@@ -3923,6 +3925,10 @@ packages:
     resolution: {integrity: sha512-uBOjRBjsWC4C8X3DfmWWP6ekwLnf2JCCwQX9KVnJtJkqfDsv1yQPakdOEwvJzXQc3JC/v5KKffYPVmV2wHXCgQ==}
     dev: false
 
+  /@next/eslint-plugin-next/11.0.0:
+    resolution: {integrity: sha512-fPZ0904yY1box6bRpR9rJqIkNxJdvzzxH7doXS+cdjyBAdptMR7wj3mcx1hEikBHzWduU8BOXBvRg2hWc09YDQ==}
+    dev: true
+
   /@next/polyfill-module/10.2.3:
     resolution: {integrity: sha512-OkeY4cLhzfYbXxM4fd+6V4s5pTPuyfKSlavItfNRA6PpS7t1/R6YjO7S7rB8tu1pbTGuDHGIdE1ioDv15bAbDQ==}
     dev: false
@@ -4565,6 +4571,10 @@ packages:
       estree-walker: 2.0.2
       picomatch: 2.3.0
       rollup: 1.31.1
+    dev: true
+
+  /@rushstack/eslint-patch/1.0.6:
+    resolution: {integrity: sha512-Myxw//kzromB9yWgS8qYGuGVf91oBUUJpNvy5eM50sqvmKLbKjwLxohJnkWGTeeI9v9IBMtPLxz5Gc60FIfvCA==}
     dev: true
 
   /@sinonjs/commons/1.8.3:
@@ -8114,6 +8124,31 @@ packages:
       optionator: 0.8.3
     optionalDependencies:
       source-map: 0.6.1
+    dev: true
+
+  /eslint-config-next/11.0.0_aa0fcbfe2388e02d8aa3d858f112d2d9:
+    resolution: {integrity: sha512-pmatg4zqb5Vygu2HrSPxbsCBudXO9OZQUMKQCyrPKRvfL8PJ3lOIOzzwsiW68eMPXOZwOc1yxTRZWKNY8OJT0w==}
+    peerDependencies:
+      eslint: ^7.23.0
+      next: '>=10.2.0'
+      typescript: '>=3.3.1'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@next/eslint-plugin-next': 11.0.0
+      '@rushstack/eslint-patch': 1.0.6
+      '@typescript-eslint/parser': 4.27.0_eslint@7.28.0+typescript@4.3.2
+      eslint: 7.28.0
+      eslint-import-resolver-node: 0.3.4
+      eslint-plugin-import: 2.23.4_eslint@7.28.0
+      eslint-plugin-jsx-a11y: 6.4.1_eslint@7.28.0
+      eslint-plugin-react: 7.24.0_eslint@7.28.0
+      eslint-plugin-react-hooks: 4.2.0_eslint@7.28.0
+      next: 10.2.3_c8cdd86752aa86fb2b6e32ae91115ebe
+      typescript: 4.3.2
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /eslint-config-prettier/8.3.0_eslint@7.28.0:
