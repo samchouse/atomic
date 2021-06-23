@@ -18,7 +18,7 @@ specifiers:
   '@nrwl/tao': 12.4.0
   '@nrwl/web': 12.4.0
   '@nrwl/workspace': 12.4.0
-  '@testing-library/react': 11.2.7
+  '@testing-library/react': 12.0.0
   '@trivago/prettier-plugin-sort-imports': ^2.0.2
   '@types/express': 4.17.12
   '@types/jest': 26.0.23
@@ -97,7 +97,7 @@ devDependencies:
   '@nrwl/tao': 12.4.0
   '@nrwl/web': 12.4.0_a0286b669a450de661e50cc7540f06de
   '@nrwl/workspace': 12.4.0_prettier@2.3.1
-  '@testing-library/react': 11.2.7_react-dom@17.0.2+react@17.0.2
+  '@testing-library/react': 12.0.0_react-dom@17.0.2+react@17.0.2
   '@trivago/prettier-plugin-sort-imports': 2.0.2
   '@types/express': 4.17.12
   '@types/jest': 26.0.23
@@ -5246,29 +5246,29 @@ packages:
       - supports-color
     dev: true
 
-  /@testing-library/dom/7.31.0:
-    resolution: {integrity: sha512-0X7ACg4YvTRDFMIuTOEj6B4NpN7i3F/4j5igOcTI5NC5J+N4TribNdErCHOZF1LBWhhcyfwxelVwvoYNMUXTOA==}
-    engines: {node: '>=10'}
+  /@testing-library/dom/8.0.0:
+    resolution: {integrity: sha512-Ym375MTOpfszlagRnTMO+FOfTt6gRrWiDOWmEnWLu9OvwCPOWtK6i5pBHmZ07wUJiQ7wWz0t8+ZBK2wFo2tlew==}
+    engines: {node: '>=12'}
     dependencies:
-      '@babel/code-frame': 7.12.13
+      '@babel/code-frame': 7.14.5
       '@babel/runtime': 7.14.0
       '@types/aria-query': 4.2.1
       aria-query: 4.2.2
       chalk: 4.1.1
-      dom-accessibility-api: 0.5.5
+      dom-accessibility-api: 0.5.6
       lz-string: 1.4.4
-      pretty-format: 26.6.2
+      pretty-format: 27.0.2
     dev: true
 
-  /@testing-library/react/11.2.7_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-tzRNp7pzd5QmbtXNG/mhdcl7Awfu/Iz1RaVHY75zTdOkmHCuzMhRL83gWHSgOAcjS3CCbyfwUHMZgRJb4kAfpA==}
-    engines: {node: '>=10'}
+  /@testing-library/react/12.0.0_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-sh3jhFgEshFyJ/0IxGltRhwZv2kFKfJ3fN1vTZ6hhMXzz9ZbbcTgmDYM4e+zJv+oiVKKEWZPyqPAh4MQBI65gA==}
+    engines: {node: '>=12'}
     peerDependencies:
       react: '*'
       react-dom: '*'
     dependencies:
       '@babel/runtime': 7.14.0
-      '@testing-library/dom': 7.31.0
+      '@testing-library/dom': 8.0.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     dev: true
@@ -8348,8 +8348,8 @@ packages:
     deprecated: V0 is gone and the best V1 polyfill is now @ungap/custom-elements
     dev: false
 
-  /dom-accessibility-api/0.5.5:
-    resolution: {integrity: sha512-8qdiSHWFg/rzd/oDByhKtBCR+1QtpNPcHDr94m3K+SLkFaPEhdCPA/Rm9hOPN9WUK9mEfNXH1zaM6F5e0yhw/A==}
+  /dom-accessibility-api/0.5.6:
+    resolution: {integrity: sha512-DplGLZd8L1lN64jlT27N9TVSESFR5STaEJvX+thCby7fuCHonfPpAlodYc3vuUYbDuDec5w8AMP7oCM5TWFsqw==}
     dev: true
 
   /dom-serializer/0.2.2:
