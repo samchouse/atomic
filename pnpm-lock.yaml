@@ -52,7 +52,7 @@ specifiers:
   lint-staged: ^11.0.0
   next: 11.0.1
   next-seo: ^4.24.0
-  next-themes: ^0.0.14
+  next-themes: ^0.0.15
   postcss: ^8.3.0
   postcss-cli: ^8.3.1
   prettier: 2.3.2
@@ -73,7 +73,7 @@ dependencies:
   lint-staged: 11.0.0
   next: 11.0.1_c8cdd86752aa86fb2b6e32ae91115ebe
   next-seo: 4.24.0_de3a444b12c9ebc463b1db22b5bac6fe
-  next-themes: 0.0.14_de3a444b12c9ebc463b1db22b5bac6fe
+  next-themes: 0.0.15_de3a444b12c9ebc463b1db22b5bac6fe
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   regenerator-runtime: 0.13.7
@@ -12351,8 +12351,8 @@ packages:
       react-dom: 17.0.2_react@17.0.2
     dev: false
 
-  /next-themes/0.0.14_de3a444b12c9ebc463b1db22b5bac6fe:
-    resolution: {integrity: sha512-x09OaM+wg3SIlEjOv8B21aw/E36jxTtfW3Dm/DPwMsSMluGt7twe1LigA6nc+mXP1u0qu9MxBaIrPPH6UTiKnA==}
+  /next-themes/0.0.15_de3a444b12c9ebc463b1db22b5bac6fe:
+    resolution: {integrity: sha512-LTmtqYi03c4gMTJmWwVK9XkHL7h0/+XrtR970Ujvtu3s0kZNeJN24aJsi4rkZOI8i19+qq6f8j+8Duwy5jqcrQ==}
     peerDependencies:
       next: '*'
       react: '*'
