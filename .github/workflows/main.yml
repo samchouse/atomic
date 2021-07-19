@@ -76,6 +76,6 @@ jobs:
         run: pnpm nx affected -- --target=test --base=origin/master --codeCoverage --ci
 
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v1
+        uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
