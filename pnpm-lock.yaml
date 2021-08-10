@@ -21,7 +21,7 @@ specifiers:
   '@testing-library/react': 12.0.0
   '@trivago/prettier-plugin-sort-imports': ^2.0.2
   '@types/express': 4.17.13
-  '@types/jest': 26.0.24
+  '@types/jest': 27.0.0
   '@types/node': 15.12.2
   '@types/react': 17.0.16
   '@types/react-dom': 17.0.9
@@ -100,7 +100,7 @@ devDependencies:
   '@testing-library/react': 12.0.0_react-dom@17.0.2+react@17.0.2
   '@trivago/prettier-plugin-sort-imports': 2.0.2
   '@types/express': 4.17.13
-  '@types/jest': 26.0.24
+  '@types/jest': 27.0.0
   '@types/node': 15.12.2
   '@types/react': 17.0.16
   '@types/react-dom': 17.0.9
@@ -128,7 +128,7 @@ devDependencies:
   postcss-cli: 8.3.1_postcss@8.3.0
   prettier: 2.3.2
   tailwindcss: 2.1.4_6daa0ece57b4377652e73c9c66c3b94c
-  ts-jest: 27.0.4_e851931f147654bf7ea8dcf3df4cdbb2
+  ts-jest: 27.0.4_ff23c073c04b8a5e841882a6fe2dc066
   ts-node: 10.2.0_e3fb3700f8b176f300f1b7e599dc9c29
   typescript: 4.3.2
 
@@ -5617,8 +5617,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/26.0.24:
-    resolution: {integrity: sha512-E/X5Vib8BWqZNRlDxj9vYXhsDwPYbPINqKF9BsnSoon4RQ0D9moEuLD8txgyypFLH7J4+Lho9Nr/c8H0Fi+17w==}
+  /@types/jest/27.0.0:
+    resolution: {integrity: sha512-IlpQZVpxufe+3qPaAqEoSPHVSxnJh1cf0BqqWHJeKiAUbwnHdmNzjP3ZCWSZSTbmAGXQPNk9QmM3Bif0pR54rg==}
     dependencies:
       jest-diff: 26.6.2
       pretty-format: 26.6.2
@@ -16628,7 +16628,7 @@ packages:
     resolution: {integrity: sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==}
     dev: true
 
-  /ts-jest/27.0.4_e851931f147654bf7ea8dcf3df4cdbb2:
+  /ts-jest/27.0.4_ff23c073c04b8a5e841882a6fe2dc066:
     resolution: {integrity: sha512-c4E1ECy9Xz2WGfTMyHbSaArlIva7Wi2p43QOMmCqjSSjHP06KXv+aT+eSY+yZMuqsMi3k7pyGsGj2q5oSl5WfQ==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
@@ -16647,7 +16647,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.15.0
-      '@types/jest': 26.0.24
+      '@types/jest': 27.0.0
       babel-jest: 27.0.2_@babel+core@7.15.0
       bs-logger: 0.2.6
       buffer-from: 1.1.1
