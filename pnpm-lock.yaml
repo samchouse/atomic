@@ -21,7 +21,7 @@ specifiers:
   '@testing-library/react': 12.0.0
   '@trivago/prettier-plugin-sort-imports': ^2.0.2
   '@types/express': 4.17.13
-  '@types/jest': 27.0.0
+  '@types/jest': 27.0.1
   '@types/node': 15.12.2
   '@types/react': 17.0.17
   '@types/react-dom': 17.0.9
@@ -100,7 +100,7 @@ devDependencies:
   '@testing-library/react': 12.0.0_react-dom@17.0.2+react@17.0.2
   '@trivago/prettier-plugin-sort-imports': 2.0.2
   '@types/express': 4.17.13
-  '@types/jest': 27.0.0
+  '@types/jest': 27.0.1
   '@types/node': 15.12.2
   '@types/react': 17.0.17
   '@types/react-dom': 17.0.9
@@ -128,7 +128,7 @@ devDependencies:
   postcss-cli: 8.3.1_postcss@8.3.0
   prettier: 2.3.2
   tailwindcss: 2.1.4_6daa0ece57b4377652e73c9c66c3b94c
-  ts-jest: 27.0.4_ff23c073c04b8a5e841882a6fe2dc066
+  ts-jest: 27.0.4_1a67ab7aaf3bdb01151abe5dc44aaaa9
   ts-node: 10.2.0_e3fb3700f8b176f300f1b7e599dc9c29
   typescript: 4.3.2
 
@@ -4697,11 +4697,11 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/27.0.0:
-    resolution: {integrity: sha512-IlpQZVpxufe+3qPaAqEoSPHVSxnJh1cf0BqqWHJeKiAUbwnHdmNzjP3ZCWSZSTbmAGXQPNk9QmM3Bif0pR54rg==}
+  /@types/jest/27.0.1:
+    resolution: {integrity: sha512-HTLpVXHrY69556ozYkcq47TtQJXpcWAWfkoqz+ZGz2JnmZhzlRjprCIyFnetSy8gpDWwTTGBcRVv1J1I1vBrHw==}
     dependencies:
-      jest-diff: 26.6.2
-      pretty-format: 26.6.2
+      jest-diff: 27.0.6
+      pretty-format: 27.0.6
     dev: true
 
   /@types/json-schema/7.0.7:
@@ -7769,11 +7769,6 @@ packages:
     resolution: {integrity: sha1-6S7f2tplN9SE1zwBcv0eugxJdv8=}
     dev: true
 
-  /diff-sequences/26.6.2:
-    resolution: {integrity: sha512-Mv/TDa3nZ9sbc5soK+OoA74BsS3mL37yixCvUAQkiuA4Wz6YtwP/K47n2rv2ovzHZvoiQeA5FTQOschKkEwB0Q==}
-    engines: {node: '>= 10.14.2'}
-    dev: true
-
   /diff-sequences/27.0.6:
     resolution: {integrity: sha512-ag6wfpBFyNXZ0p8pcuIDS//D8H062ZQJ3fzYxjpmeKjnz8W4pekL3AI8VohmyZmsWW2PWaHgjsmqR6L13101VQ==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
@@ -10527,16 +10522,6 @@ packages:
       - utf-8-validate
     dev: true
 
-  /jest-diff/26.6.2:
-    resolution: {integrity: sha512-6m+9Z3Gv9wN0WFVasqjCL/06+EFCMTqDEUl/b87HYK2rAPTyfz4ZIuSlPhY51PIQRWx5TaxeF1qmXKe9gfN3sA==}
-    engines: {node: '>= 10.14.2'}
-    dependencies:
-      chalk: 4.1.1
-      diff-sequences: 26.6.2
-      jest-get-type: 26.3.0
-      pretty-format: 26.6.2
-    dev: true
-
   /jest-diff/27.0.6:
     resolution: {integrity: sha512-Z1mqgkTCSYaFgwTlP/NUiRzdqgxmmhzHY1Tq17zL94morOHfHu3K4bgSgl+CR4GLhpV8VxkuOYuIWnQ9LnFqmg==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
@@ -10593,11 +10578,6 @@ packages:
       '@types/node': 15.12.2
       jest-mock: 27.0.6
       jest-util: 27.0.6
-    dev: true
-
-  /jest-get-type/26.3.0:
-    resolution: {integrity: sha512-TpfaviN1R2pQWkIihlfEanwOXK0zcxrKEE4MlU6Tn7keoXdN6/3gK/xl0yEh8DOunn5pOVGKf8hB4R9gVh04ig==}
-    engines: {node: '>= 10.14.2'}
     dev: true
 
   /jest-get-type/27.0.6:
@@ -13492,16 +13472,6 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /pretty-format/26.6.2:
-    resolution: {integrity: sha512-7AeGuCYNGmycyQbCqd/3PWH4eOoX/OiCa0uphp57NVTeAGdJGaAliecxwBDHYQCIvrW7aDBZCYeNTP/WX69mkg==}
-    engines: {node: '>= 10'}
-    dependencies:
-      '@jest/types': 26.6.2
-      ansi-regex: 5.0.0
-      ansi-styles: 4.3.0
-      react-is: 17.0.2
-    dev: true
-
   /pretty-format/27.0.2:
     resolution: {integrity: sha512-mXKbbBPnYTG7Yra9qFBtqj+IXcsvxsvOBco3QHxtxTl+hHKq6QdzMZ+q0CtL4ORHZgwGImRr2XZUX2EWzORxig==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
@@ -15653,7 +15623,7 @@ packages:
     resolution: {integrity: sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==}
     dev: true
 
-  /ts-jest/27.0.4_ff23c073c04b8a5e841882a6fe2dc066:
+  /ts-jest/27.0.4_1a67ab7aaf3bdb01151abe5dc44aaaa9:
     resolution: {integrity: sha512-c4E1ECy9Xz2WGfTMyHbSaArlIva7Wi2p43QOMmCqjSSjHP06KXv+aT+eSY+yZMuqsMi3k7pyGsGj2q5oSl5WfQ==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
@@ -15672,7 +15642,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.15.0
-      '@types/jest': 27.0.0
+      '@types/jest': 27.0.1
       babel-jest: 27.0.2_@babel+core@7.15.0
       bs-logger: 0.2.6
       buffer-from: 1.1.1
