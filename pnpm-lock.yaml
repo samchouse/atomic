@@ -60,7 +60,7 @@ specifiers:
   react-dom: 17.0.2
   regenerator-runtime: 0.13.9
   tailwindcss: ^2.1.4
-  ts-jest: 27.0.4
+  ts-jest: 27.0.5
   ts-node: ~10.2.0
   tslib: ^2.0.0
   typescript: ~4.3.2
@@ -128,7 +128,7 @@ devDependencies:
   postcss-cli: 8.3.1_postcss@8.3.0
   prettier: 2.3.2
   tailwindcss: 2.1.4_6daa0ece57b4377652e73c9c66c3b94c
-  ts-jest: 27.0.4_1a67ab7aaf3bdb01151abe5dc44aaaa9
+  ts-jest: 27.0.5_1a67ab7aaf3bdb01151abe5dc44aaaa9
   ts-node: 10.2.0_e3fb3700f8b176f300f1b7e599dc9c29
   typescript: 4.3.2
 
@@ -14026,13 +14026,13 @@ packages:
     resolution: {integrity: sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==}
     dev: true
 
-  /ts-jest/27.0.4_1a67ab7aaf3bdb01151abe5dc44aaaa9:
-    resolution: {integrity: sha512-c4E1ECy9Xz2WGfTMyHbSaArlIva7Wi2p43QOMmCqjSSjHP06KXv+aT+eSY+yZMuqsMi3k7pyGsGj2q5oSl5WfQ==}
+  /ts-jest/27.0.5_1a67ab7aaf3bdb01151abe5dc44aaaa9:
+    resolution: {integrity: sha512-lIJApzfTaSSbtlksfFNHkWOzLJuuSm4faFAfo5kvzOiRAuoN4/eKxVJ2zEAho8aecE04qX6K1pAzfH5QHL1/8w==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
     peerDependencies:
       '@babel/core': '>=7.0.0-beta.0 <8'
-      '@types/jest': ^26.0.0
+      '@types/jest': ^27.0.0
       babel-jest: '>=27.0.0 <28'
       jest: ^27.0.0
       typescript: '>=3.8 <5.0'
@@ -14048,14 +14048,12 @@ packages:
       '@types/jest': 27.0.1
       babel-jest: 27.0.2_@babel+core@7.15.0
       bs-logger: 0.2.6
-      buffer-from: 1.1.1
       fast-json-stable-stringify: 2.1.0
       jest: 27.0.6_ts-node@10.2.0
       jest-util: 27.0.6
       json5: 2.2.0
       lodash: 4.17.21
       make-error: 1.3.6
-      mkdirp: 1.0.4
       semver: 7.3.5
       typescript: 4.3.2
       yargs-parser: 20.2.7
