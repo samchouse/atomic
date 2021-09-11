@@ -18,7 +18,7 @@ specifiers:
   '@nrwl/tao': 999.9.9
   '@nrwl/web': 999.9.9
   '@nrwl/workspace': 999.9.9
-  '@testing-library/react': 12.0.0
+  '@testing-library/react': 12.1.0
   '@trivago/prettier-plugin-sort-imports': ^2.0.2
   '@types/express': 4.17.13
   '@types/jest': 27.0.1
@@ -97,7 +97,7 @@ devDependencies:
   '@nrwl/tao': 999.9.9
   '@nrwl/web': 999.9.9_a875f61b01012cd9f53b62700221c7df
   '@nrwl/workspace': 999.9.9_prettier@2.4.0+ts-node@10.2.0
-  '@testing-library/react': 12.0.0_react-dom@17.0.2+react@17.0.2
+  '@testing-library/react': 12.1.0_react-dom@17.0.2+react@17.0.2
   '@trivago/prettier-plugin-sort-imports': 2.0.2
   '@types/express': 4.17.13
   '@types/jest': 27.0.1
@@ -4779,23 +4779,23 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.14.5
-      '@babel/runtime': 7.14.0
+      '@babel/runtime': 7.14.8
       '@types/aria-query': 4.2.1
       aria-query: 4.2.2
       chalk: 4.1.1
       dom-accessibility-api: 0.5.6
       lz-string: 1.4.4
-      pretty-format: 27.0.2
+      pretty-format: 27.1.1
     dev: true
 
-  /@testing-library/react/12.0.0_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-sh3jhFgEshFyJ/0IxGltRhwZv2kFKfJ3fN1vTZ6hhMXzz9ZbbcTgmDYM4e+zJv+oiVKKEWZPyqPAh4MQBI65gA==}
+  /@testing-library/react/12.1.0_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-Ge3Ht3qXE82Yv9lyPpQ7ZWgzo/HgOcHu569Y4ZGWcZME38iOFiOg87qnu6hTEa8jTJVL7zYovnvD3GE2nsNIoQ==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '*'
       react-dom: '*'
     dependencies:
-      '@babel/runtime': 7.14.0
+      '@babel/runtime': 7.14.8
       '@testing-library/dom': 8.0.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -13943,16 +13943,6 @@ packages:
   /pretty-bytes/5.6.0:
     resolution: {integrity: sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==}
     engines: {node: '>=6'}
-    dev: true
-
-  /pretty-format/27.0.2:
-    resolution: {integrity: sha512-mXKbbBPnYTG7Yra9qFBtqj+IXcsvxsvOBco3QHxtxTl+hHKq6QdzMZ+q0CtL4ORHZgwGImRr2XZUX2EWzORxig==}
-    engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
-    dependencies:
-      '@jest/types': 27.0.2
-      ansi-regex: 5.0.0
-      ansi-styles: 5.2.0
-      react-is: 17.0.2
     dev: true
 
   /pretty-format/27.0.6:
