@@ -25,10 +25,6 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 0
 
-      - uses: pnpm/action-setup@v2.0.1
-        with:
-          version: 6.6.2
-
       - name: Set up Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
@@ -38,10 +34,10 @@ jobs:
         run: git fetch --no-tags --prune --depth=5 origin master
 
       - name: Install Dependencies
-        run: pnpm install --silent --frozen-lockfile
+        run: yarn --silent --frozen-lockfile
 
       - name: Run Linter
-        run: pnpm nx workspace-lint -- --fix && yarn nx affected -- --target=lint --base=origin/master --fix
+        run: yarn nx workspace-lint --fix && yarn nx affected -- --target=lint --base=origin/master --fix
 
   test:
     name: Tests
@@ -57,10 +53,6 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 0
 
-      - uses: pnpm/action-setup@v2.0.1
-        with:
-          version: 6.6.2
-
       - name: Set up Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
@@ -70,12 +62,12 @@ jobs:
         run: git fetch --no-tags --prune --depth=5 origin master
 
       - name: Install Dependencies
-        run: pnpm install --silent --frozen-lockfile
+        run: yarn --silent --frozen-lockfile
 
       - name: Run Tests
-        run: pnpm nx affected -- --target=test --base=origin/master --codeCoverage --ci
+        run: yarn nx affected --target=test --base=origin/master --codeCoverage --ci
 
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v1
+        uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }}

@@ -1,5 +1,7 @@
 {
-  "*.ts": "eslint --fix",
-  "*.tsx": "eslint --fix",
+  "*.json": "prettier --write --ignore-path .gitignore",
+  "*.js": "eslint --ignore-path .gitignore --fix",
+  "*.ts": "eslint --ignore-path .gitignore --fix",
+  "*.tsx": "eslint --ignore-path .gitignore --fix",
   "README.md": "doctoc"
 }

@@ -21,15 +21,15 @@
 
 ## Structure
 
-| Codebase | Description |
-| -------  | ------- |
+| Codebase                   | Description             |
+| -------------------------- | ----------------------- |
 | [Frontend](/apps/frontend) | Website for the project |
-| [Backend](/apps/backend) | API for the project |
-| [Gateway](/apps/gateway) | Websockets for the app |
+| [Backend](/apps/backend)   | API for the project     |
+| [Gateway](/apps/gateway)   | Websockets for the app  |
 
 ## What is Atomic
 
-Atomic is a chat app that I am working on. It supposed to be a lot like Discord which we all know and love, the only difference being that it's open sourced. 
+Atomic is a chat app that I am working on. It supposed to be a lot like Discord which we all know and love, the only difference being that it's open sourced.
 
 ## Contribution
 
