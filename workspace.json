@@ -1,23 +1,57 @@
 {
   "version": 2,
-  "cli": {
-    "defaultCollection": "@nrwl/next"
-  },
-  "defaultProject": "frontend",
-  "generators": {
-    "@nrwl/react": {
-      "application": {
-        "babel": true
-      }
-    },
-    "@nrwl/next": {
-      "application": {
-        "style": "scss",
-        "linter": "eslint"
-      }
-    }
-  },
   "projects": {
+    "backend": {
+      "root": "apps/backend",
+      "sourceRoot": "apps/backend/src",
+      "projectType": "application",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/node:build",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/apps/backend",
+            "main": "apps/backend/src/main.ts",
+            "tsConfig": "apps/backend/tsconfig.app.json",
+            "assets": ["apps/backend/src/assets"]
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "extractLicenses": true,
+              "inspect": false,
+              "fileReplacements": [
+                {
+                  "replace": "apps/backend/src/environments/environment.ts",
+                  "with": "apps/backend/src/environments/environment.prod.ts"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "executor": "@nrwl/node:execute",
+          "options": {
+            "buildTarget": "backend:build"
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/backend/**/*.ts"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/backend"],
+          "options": {
+            "jestConfig": "apps/backend/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "tags": []
+    },
     "frontend": {
       "root": "apps/frontend",
       "sourceRoot": "apps/frontend",
@@ -92,7 +126,8 @@
             "cwd": "apps/frontend"
           }
         }
-      }
+      },
+      "tags": []
     },
     "frontend-e2e": {
       "root": "apps/frontend-e2e",
@@ -118,57 +153,9 @@
             "lintFilePatterns": ["apps/frontend-e2e/**/*.{js,ts}"]
           }
         }
-      }
-    },
-    "backend": {
-      "root": "apps/backend",
-      "sourceRoot": "apps/backend/src",
-      "projectType": "application",
-      "targets": {
-        "build": {
-          "executor": "@nrwl/node:build",
-          "outputs": ["{options.outputPath}"],
-          "options": {
-            "outputPath": "dist/apps/backend",
-            "main": "apps/backend/src/main.ts",
-            "tsConfig": "apps/backend/tsconfig.app.json",
-            "assets": ["apps/backend/src/assets"]
-          },
-          "configurations": {
-            "production": {
-              "optimization": true,
-              "extractLicenses": true,
-              "inspect": false,
-              "fileReplacements": [
-                {
-                  "replace": "apps/backend/src/environments/environment.ts",
-                  "with": "apps/backend/src/environments/environment.prod.ts"
-                }
-              ]
-            }
-          }
-        },
-        "serve": {
-          "executor": "@nrwl/node:execute",
-          "options": {
-            "buildTarget": "backend:build"
-          }
-        },
-        "lint": {
-          "executor": "@nrwl/linter:eslint",
-          "options": {
-            "lintFilePatterns": ["apps/backend/**/*.ts"]
-          }
-        },
-        "test": {
-          "executor": "@nrwl/jest:jest",
-          "outputs": ["coverage/apps/backend"],
-          "options": {
-            "jestConfig": "apps/backend/jest.config.js",
-            "passWithNoTests": true
-          }
-        }
-      }
+      },
+      "tags": [],
+      "implicitDependencies": ["frontend"]
     },
     "gateway": {
       "root": "apps/gateway",
@@ -218,7 +205,8 @@
             "passWithNoTests": true
           }
         }
-      }
+      },
+      "tags": []
     }
   }
 }

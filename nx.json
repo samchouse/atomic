@@ -25,19 +25,21 @@
       "options": {}
     }
   },
-  "projects": {
-    "frontend": {
-      "tags": []
+  "cli": {
+    "defaultCollection": "@nrwl/next"
+  },
+  "generators": {
+    "@nrwl/react": {
+      "application": {
+        "babel": true
+      }
     },
-    "frontend-e2e": {
-      "tags": [],
-      "implicitDependencies": ["frontend"]
-    },
-    "backend": {
-      "tags": []
-    },
-    "gateway": {
-      "tags": []
+    "@nrwl/next": {
+      "application": {
+        "style": "scss",
+        "linter": "eslint"
+      }
     }
-  }
+  },
+  "defaultProject": "frontend"
 }
