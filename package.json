@@ -75,7 +75,7 @@
     "cypress": "^9.0.0",
     "cz-conventional-changelog": "3.3.0",
     "doctoc": "^2.0.1",
-    "dotenv": "12.0.4",
+    "dotenv": "14.1.0",
     "eslint": "^8.0.0",
     "eslint-config-next": "^12.0.0",
     "eslint-config-prettier": "^8.3.0",
