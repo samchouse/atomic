@@ -64,6 +64,6 @@ jobs:
         run: yarn nx affected --target=test --base=origin/master --codeCoverage --ci
 
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v2
+        uses: codecov/codecov-action@v3
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
