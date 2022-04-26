@@ -31,7 +31,7 @@
   "dependencies": {
     "core-js": "^3.14.0",
     "document-register-element": "1.14.10",
-    "express": "4.17.3",
+    "express": "4.18.0",
     "husky": "^7.0.0",
     "lint-staged": "^12.0.0",
     "next": "12.1.5",
