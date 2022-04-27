@@ -3080,15 +3080,14 @@
     webpack-merge "^5.8.0"
     webpack-node-externals "^3.0.0"
 
-"@nrwl/nx-cloud@^13.0.0":
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx-cloud/-/nx-cloud-13.0.0.tgz#24d01bc8c20ee6eeb66fd6b0499d3396cc5e5993"
-  integrity sha512-zx212AYO5Goz7QPPbjYcS+pXaoNXbTJi8ahgW5Q7r7E9wDTZhHbZZ++ds2qMB3WHWP63soq98VmDlxYRFV7lGA==
+"@nrwl/nx-cloud@^14.0.0":
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx-cloud/-/nx-cloud-14.0.0.tgz#5a5dbac3f97124c435e43d9be0f1b6f41307abd1"
+  integrity sha512-JX1BlyPhEKaqhIOCb19OOqJDDFUclIJSSaAzL42thoPTaEpmf04T7NPwO59lddaRvRxiFK0RBe+XnMC4hxch4A==
   dependencies:
     axios "^0.21.1"
     chalk "4.1.0"
     node-machine-id "^1.1.12"
-    rxjs "6.5.5"
     strip-json-comments "^3.1.1"
     tar "6.1.11"
 
@@ -11936,13 +11935,6 @@ rxjs-for-await@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/rxjs-for-await/-/rxjs-for-await-0.0.2.tgz#26598a1d6167147cc192172970e7eed4e620384b"
   integrity sha512-IJ8R/ZCFMHOcDIqoABs82jal00VrZx8Xkgfe7TOKoaRPAW5nH/VFlG23bXpeGdrmtqI9UobFPgUKgCuFc7Lncw==
-
-rxjs@6.5.5:
-  version "6.5.5"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.5.tgz#c5c884e3094c8cfee31bf27eb87e54ccfc87f9ec"
-  integrity sha512-WfQI+1gohdf0Dai/Bbmk5L5ItH5tYqm3ki2c5GdWhKjalzjg93N3avFjVStyZZz+A2Em+ZxKH5bNghw9UeylGQ==
-  dependencies:
-    tslib "^1.9.0"
 
 rxjs@^6.4.0, rxjs@^6.5.4, rxjs@^6.6.7:
   version "6.6.7"
