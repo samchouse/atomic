@@ -4,7 +4,7 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 
 import SEO from '../../next-seo.config';
-import '../styles/tailwind.css';
+import '../styles/globals.css';
 
 const App: React.FC<AppProps> = ({ Component, pageProps }: AppProps) => {
   return (

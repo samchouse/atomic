@@ -102,22 +102,6 @@
             "lintFilePatterns": ["apps/frontend/**/*.{ts,tsx,js,jsx}"]
           }
         },
-        "build-css": {
-          "executor": "@nrwl/workspace:run-commands",
-          "outputs": [],
-          "options": {
-            "command": "NODE_ENV=production yarn postcss $PWD/src/styles/main.css -o $PWD/src/styles/tailwind.css",
-            "cwd": "apps/frontend"
-          }
-        },
-        "build-css-watch": {
-          "executor": "@nrwl/workspace:run-commands",
-          "outputs": [],
-          "options": {
-            "command": "NODE_ENV=development yarn postcss $PWD/src/styles/main.css -o $PWD/src/styles/tailwind.css -w",
-            "cwd": "apps/frontend"
-          }
-        },
         "vercel": {
           "executor": "@nrwl/workspace:run-commands",
           "outputs": [],
