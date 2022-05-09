@@ -2,6 +2,7 @@
   "name": "atomic",
   "version": "0.1.0",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "postinstall": "is-ci || husky install",
     "doctoc": "doctoc README.md",
@@ -27,7 +28,9 @@
     "dep-graph": "nx dep-graph",
     "help": "nx help"
   },
-  "private": true,
+  "resolutions": {
+    "minimist": "^1.2.6"
+  },
   "dependencies": {
     "core-js": "^3.22.4",
     "document-register-element": "1.14.10",
