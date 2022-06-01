@@ -36,7 +36,7 @@
     "document-register-element": "1.14.10",
     "express": "4.18.1",
     "husky": "^8.0.1",
-    "lint-staged": "^12.4.1",
+    "lint-staged": "^13.0.0",
     "next": "12.1.6",
     "next-seo": "^5.4.0",
     "next-themes": "^0.2.0",
