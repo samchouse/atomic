@@ -63,7 +63,7 @@
     "@nrwl/tao": "15.7.1",
     "@nrwl/web": "15.7.1",
     "@nrwl/workspace": "15.7.1",
-    "@testing-library/react": "13.4.0",
+    "@testing-library/react": "14.0.0",
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "@types/express": "4.17.17",
     "@types/jest": "29.4.0",
