@@ -8,6 +8,7 @@ const Index: React.FC = () => {
           src="/logoTransperant.png"
           alt="logo"
           width="180"
+          height="180"
           draggable="false"
         />
       </div>
